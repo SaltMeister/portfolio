@@ -22,7 +22,7 @@
 }
 
 .col-sm-4 {
-    background-color:LightYellow ;
+    background-color: goldenrod ;
     border: solid;
 }
 
@@ -72,6 +72,10 @@
    border-radius: 300px; 
    border: solid white 10px;
 }
+#blurb {
+    margin: auto;
+    display: block;
+}
 
 
 
@@ -83,13 +87,17 @@
 .img-thumbnail {
     width: 300px;
     height: 300px;
+    display: block;
+    margin: auto;
+    
 }
-
+.caption {
+    text-align: center;
+}
 
 /* Footer CSS */
 
 
 
 /* Button CSS */
-
 
