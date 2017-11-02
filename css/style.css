@@ -70,7 +70,7 @@ nav {
 }
 
 .col-sm-12 {
-    background-color:pink;
+    background-color: pink ;
     border: solid;
 }
 
@@ -89,6 +89,8 @@ nav {
 #about {
     margin: auto;
     display: block;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 #about p {
     font-family: tahoma;
@@ -96,6 +98,7 @@ nav {
 #about h3 {
     font-family: impact;
     text-align: center;
+    font-size: 40px;
 }
 
 
@@ -124,8 +127,12 @@ nav {
     font-family: tahoma;
 }
 /* Footer CSS */
-
-
+#contact, #contact li{
+    display: inline;
+}
+span {
+    text-align: center;
+}
 
 /* Button CSS */
 
