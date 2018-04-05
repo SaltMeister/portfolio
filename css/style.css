@@ -1,12 +1,12 @@
 /* Nav Bar CSS */
 nav {
-    font-family: garamond;
+    font-family: "Noticia Text", garamond;
     font-size: 20px;
     background-color: #f5f5f5;
     opacity: 0.8;
 }
 .navbar-brand {
-    font-family: garamond;
+    font-family: "Noticia Text", garamond;
     font-size: 30px;
 }
 
@@ -57,7 +57,9 @@ nav {
     padding: 10px;
 }
 #about p {
-    font-family: tahoma;
+    font-family: "Noticia Text", tahoma;
+    text-indent: 50px;
+    line-height: 40px;
 }
 #about h3 {
     font-family: impact;
@@ -100,7 +102,7 @@ nav {
     font-family: impact;
 }
 .caption p {
-    font-family: tahoma;
+    font-family: "Noticia Text", tahoma;
 }
 /* Footer CSS */
 #contact, #contact li{
@@ -111,8 +113,8 @@ span {
     text-align: center;
 }
 .icon{
-    max-height: 40px;
-    max-width: 50px;
+    max-height: 30px;
+    max-width: 40px;
 }
 #contact p {
     font-family: tahoma;
