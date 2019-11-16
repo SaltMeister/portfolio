@@ -30,7 +30,7 @@ nav {
     background: #2d3f62;
     background-image: url("http://sheepmountain.com/wp-content/uploads/2016/01/20150131-DSC_0640-3-1500x700.jpg");
     max-width: 100%;
-    height: auto;
+    height: 50%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -41,19 +41,20 @@ nav {
 #profile_picture {
    border-radius: 300px; 
    border: double #54b7bb  10px;
+   width: 150px;
+   height: 200px;
 }
 #name {
     text-align: center;
     margin: auto;
     font-family: impact;
     color: black;
-    text-decoration: underline #54b7bb;
 }
 #about {
     margin: auto;
     display: block;
     margin-bottom: 100px;
-    margin-top: 150px;
+    margin-top: 250px;
     padding: 10px;
 }
 #about p {
@@ -61,12 +62,11 @@ nav {
     text-indent: 50px;
     line-height: 40px;
 }
-#about h3 {
+#about h3, #skills h3 {
     font-family: impact;
     text-align: center;
     font-size: 60px;
 }
-
 
 /* Portfolio Item CSS */
 #project-title h1 {
