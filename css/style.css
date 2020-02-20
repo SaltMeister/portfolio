@@ -123,3 +123,9 @@ span {
 }
 /* Button CSS */
 
+.skillList
+{
+    display: inline;
+    margin: 10px;
+    font-size: 25px;
+}
