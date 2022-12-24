@@ -18,6 +18,7 @@ nav {
 #container {
     max-width: 100%;
     height: auto;
+    background-color: #dcdcdc ;
 }
 
 
@@ -27,7 +28,7 @@ nav {
 }
 #profile-back {
     border-bottom: solid #262626 5px;
-    background: #2d3f62;
+    margin-bottom: 0px;
     max-width: 100%;
     height: 50%;
     background-size: 100% 100%;
@@ -35,6 +36,7 @@ nav {
 }
 #profile_background {
     text-align: center;
+    background: #2d3f62;
 }
 #profile_picture {
    border-radius: 300px; 
@@ -50,13 +52,15 @@ nav {
 }
 #info {
 
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 #about {
     margin: auto;
+    justify-content: center;
     display: block;
     font-size: 20px;
     padding: 10px;
+    
     background-color: #dcdcdc;
 }
 #about p {
